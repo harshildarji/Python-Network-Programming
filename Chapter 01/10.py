@@ -14,7 +14,7 @@ def reuse_socket_addr():
     srv.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     srv.bind(('', local_port))
     srv.listen(1)
-    print('LIstening on port: %s' % local_port)
+    print('Listening on port: %s' % local_port)
     while True:
         try:
             connection, addr = srv.accept()
