@@ -22,7 +22,6 @@ def receive(channel):
         buf = channel.recv(size - len(buf))
     return pickle.loads(buf)[0]
 
-
 class ChatServer(object):
     def __init__(self, port, backlog=5):
         self.clients = 0
@@ -94,7 +93,6 @@ class ChatServer(object):
                         self.outputs.remove(sock)
         self.server.close()
 
-
 class ChatClient(object):
     def __init__(self, name, port, host=SERVER_HOST):
         self.name = name
@@ -139,7 +137,6 @@ class ChatClient(object):
                 print ('Client interrupted.')
                 self.sock.close()
                 break
-
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Socket Server Example with Select')
