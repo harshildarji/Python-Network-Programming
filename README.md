@@ -24,6 +24,7 @@ Python scripts from the book: [**Python Network Programming Cookbook - 2nd Editi
 **Chapter 02 - Multiplexing Socket I/O for Better Performance**
 - [Using ForkingMixIn in your socket server applications](https://github.com/harshildarji/Python-Network-Programming/blob/master/Chapter%2002/1.py)
 - [Using ThreadingMixIn in your socket server applications](https://github.com/harshildarji/Python-Network-Programming/blob/master/Chapter%2002/2.py)
+- [Writing a chat server using select.select](https://github.com/harshildarji/Python-Network-Programming/blob/master/Chapter%2002/3.py)
 
 **Chapter 03 - IPv6, Unix Domain Sockets, and Network Interfaces**
 
