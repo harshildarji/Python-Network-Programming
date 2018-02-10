@@ -26,6 +26,7 @@ Python scripts from the book: [**Python Network Programming Cookbook - 2nd Editi
 - [Using ThreadingMixIn in your socket server applications](https://github.com/harshildarji/Python-Network-Programming/blob/master/Chapter%2002/2.py)
 - [Writing a chat server using select.select](https://github.com/harshildarji/Python-Network-Programming/blob/master/Chapter%2002/3.py)
 - [Multiplexing a web server using select.epoll](https://github.com/harshildarji/Python-Network-Programming/blob/master/Chapter%2002/4.py)
+- [Multiplexing an echo server using Diesel concurrent library](https://github.com/harshildarji/Python-Network-Programming/blob/master/Chapter%2002/05.py)
 
 **Chapter 03 - IPv6, Unix Domain Sockets, and Network Interfaces**
 
